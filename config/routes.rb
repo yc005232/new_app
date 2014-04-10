@@ -1,4 +1,6 @@
 NewApp::Application.routes.draw do
+  get "staticpages/help"
+  get "staticpages/home"
   resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.
