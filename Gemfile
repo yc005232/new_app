@@ -58,4 +58,4 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'annotate', '2.5.0', group: :development
-
+gem 'bcrypt-ruby' , '3.0.1'
