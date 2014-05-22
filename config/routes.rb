@@ -1,6 +1,19 @@
 NewApp::Application.routes.draw do
+  root to: "staticpages#home"
+  get "signup", to: "users#new"
+ 
+  get "staticpages/about"
+  get "staticpages/signup"
+  get "staticpages/signin"
+  get "staticpages/contact"
+ 
+  
+  
   get "staticpages/help"
   get "staticpages/home"
+  get "home" , to: "staticpages#home"
+  get "help" , to: "staticpages#help"
+  
   resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.

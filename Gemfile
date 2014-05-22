@@ -61,3 +61,4 @@ gem 'annotate', '2.5.0', group: :development
 gem 'protected_attributes'
 gem 'bcrypt-ruby' , '3.1.2'
 gem 'bootstrap-sass', '2.0.4'
+gem 'factory_girl_rails','4.1.0'
